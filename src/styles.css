@@ -1,0 +1,14 @@
+html {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+/* https://css-tricks.com/fun-with-blurred-text/ */
+[data-blur-pii=true] {
+  color: transparent !important;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5) !important;
+}
+
+[data-hide=true] {
+  display: none !important;  
+}

@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  color: #333;
+}
+main {
+  padding: 2rem;
+}
+main > a {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+ul {
+  padding-inline-start: 1.5rem;
+}
+ul li {
+  margin-bottom: 0.5rem;
+}
+nav#home ul {
+  list-style: none;
+  padding-inline-start: 1.5rem;
+}
+nav#home ul li {
+  display: inline-block;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
+nav h3 {
+  margin-top: 2rem;
+  font-variant-numeric: tabular-nums;
+  padding-left: 1.25em;
+  text-indent: -1.25em;
+}
+p img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "IBM Plex Mono", monospace !important;
+  font-size: 90%;
+  padding: 8px;
+  border-radius: 2px;
+}
+details summary.h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+a {
+  color: #333;
+  text-decoration-color: #535bcf;
+}
+a:hover {
+  color: #535bcf;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+.rows > * + * {
+  margin-top: 1rem;
+}
+
+.color-swatch {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 4rem;
+  font-size: 0.75rem;
+}
+
+.space-box {
+  display: inline-block;
+  background-color: #999;
+}
+
+pre {
+  border-radius: 4px;
+  font-size: 13px !important;
+  font-family: "IBM Plex Mono", monospace !important;
+}
+p {
+  line-height: 1.4;
+}
+
+p code {
+  color: #404b5a;
+  font-family: "IBM Plex Mono", monospace !important;
+  font-size: 90%;
+  background-color: #e1e7ec;
+  padding: 0 4px 1px;
+  border-radius: 2px;
+}
+hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e1e7ec;
+  margin: 48px 0;
+}
+blockquote {
+  margin-left: 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+  font-style: italic;
+  color: #404b5a;
+  border-left: 2px solid #e1e7ec;
+}
