@@ -28,6 +28,6 @@ export const Home = () => {
 
 ### [View in Code Sandbox](https://codesandbox.io/s/blur-pii-with-feature-toggle-x64r7?file=/src/home.js)
 
-This is a great solution for taking screen shots or recordings with live data.  The end user can easily view the PII by selecting the blured text so use other methods for hiding PII from end users. 
+This is a great solution for taking screen shots or recordings with live data.  The end user can easily view the PII by selecting the blured text.  Use other methods for hiding PII from end users. 
 
 ## Live Demo:
